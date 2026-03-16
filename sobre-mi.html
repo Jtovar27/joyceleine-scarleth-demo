@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre Mí — Joyceleine Scarleth</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+
+<!-- MOBILE MENU -->
+<div class="mob" id="mob">
+  <button class="mob-x" id="mobX">✕</button>
+  <a href="sobre-mi.html" onclick="cm()">Sobre Mí</a>
+  <a href="servicios.html" onclick="cm()">Servicios</a>
+  <a href="galeria.html" onclick="cm()">Galería</a>
+  <a href="blog.html" onclick="cm()">Blog</a>
+  <a href="contacto.html" onclick="cm()" class="btn btn-fill" style="font-size:.75rem;margin-top:1rem;">Agendar cita</a>
+</div>
+
+<!-- NAV (starts solid on inner pages) -->
+<nav id="nav" class="s">
+  <a href="index.html" class="logo">Joyceleine Scarleth</a>
+  <ul class="nav-links">
+    <li><a href="sobre-mi.html" class="active">Sobre Mí</a></li>
+    <li><a href="servicios.html">Servicios</a></li>
+    <li><a href="galeria.html">Galería</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contacto.html" class="nav-cta-btn btn">Agendar cita</a></li>
+  </ul>
+  <div class="hamburger" id="ham"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <span class="tag">Mi historia</span>
+  <h1>Autoridad, <em>experiencia</em><br>y corazón caribeño.</h1>
+  <div class="line"></div>
+  <p>Coach de bienestar, comunicadora y autora al servicio de la comunidad hispana.</p>
+</div>
+
+<!-- ABOUT SECTION -->
+<section id="nosotros">
+  <div class="about-img up">
+    <div class="about-main">
+      <img src="src/images/IMG_3865.JPG.jpeg" alt="Joyceleine Scarleth retrato" />
+    </div>
+    <div class="about-accent" style="overflow:hidden;">
+      <img src="src/images/IMG_3866.JPG.jpeg" alt="Joyceleine en acción" style="width:100%;height:100%;object-fit:cover;object-position:center top;display:block;" />
+    </div>
+  </div>
+  <div class="about-text up" style="transition-delay:.15s">
+    <span class="tag">Sobre mí</span>
+    <h2 class="h2">Mi camino hacia el <em>propósito.</em></h2>
+    <div class="line"></div>
+    <p>Soy Joyceleine Scarleth, coach de bienestar, comunicadora y autora. Mi misión es ayudarte a descubrir tu potencial y vivir con propósito.</p>
+    <p>He acompañado a emprendedores y profesionales en Orlando y toda la comunidad hispana de los Estados Unidos durante más de una década.</p>
+    <p>Mi enfoque integra el bienestar emocional, la oratoria y el liderazgo personal como pilares para una transformación duradera y auténtica.</p>
+    <div class="about-sig">Joyceleine Scarleth</div>
+    <a href="contacto.html" class="btn btn-fill">Reserva una sesión</a>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="about-values">
+  <div class="inner">
+    <div style="text-align:center;margin-bottom:0;" class="up">
+      <span class="tag">Mis valores</span>
+      <h2 class="h2">Lo que guía mi <em>trabajo.</em></h2>
+      <div class="line c"></div>
+    </div>
+    <div class="values-grid">
+      <div class="value-item up">
+        <h3>Autenticidad</h3>
+        <p>Creo en un coaching honesto, sin máscaras. Mi trabajo parte de quien realmente eres, no de quien crees que debes ser.</p>
+      </div>
+      <div class="value-item up" style="transition-delay:.1s">
+        <h3>Propósito</h3>
+        <p>Cada sesión, cada taller y cada publicación está diseñada para conectarte con tu razón de ser más profunda.</p>
+      </div>
+      <div class="value-item up" style="transition-delay:.2s">
+        <h3>Comunidad</h3>
+        <p>La transformación es más poderosa en colectivo. Construyo espacios seguros donde la comunidad hispana puede crecer unida.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <h2 class="cta-h up">¿Lista para comenzar tu <em>transformación?</em></h2>
+  <p class="cta-sub up" style="transition-delay:.1s">Agenda tu primera sesión hoy y da el primer paso.</p>
+  <div class="cta-btns up" style="transition-delay:.2s">
+    <a href="contacto.html" class="btn btn-fill">Agendar cita ahora</a>
+    <a href="servicios.html" class="btn btn-outline">Ver servicios</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft-grid">
+    <div>
+      <p class="ft-name">Joyceleine Scarleth</p>
+      <p class="ft-desc">Coach de bienestar, comunicadora y autora. Orlando, FL.</p>
+      <div class="socials">
+        <a href="https://www.instagram.com/joyceleinescarleth" target="_blank" class="soc" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="https://www.facebook.com/share/1AGDUjxgYz/?mibextid=wwXIfr" target="_blank" class="soc" aria-label="Facebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="https://www.tiktok.com/@joyceleine" target="_blank" class="soc" aria-label="TikTok"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <p class="ft-h">Navegación</p>
+      <ul class="ft-links">
+        <li><a href="sobre-mi.html">Sobre Mí</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="ft-h">Contacto</p>
+      <ul class="ft-links">
+        <li><a href="contacto.html">Agendar cita</a></li>
+        <li><a href="mailto:hola@joyceleinescarleth.com">hola@joyceleinescarleth.com</a></li>
+        <li><a href="#">Orlando, Florida · USA</a></li>
+      </ul>
+      <a href="contacto.html" class="btn btn-fill" style="margin-top:1.3rem;font-size:.7rem;padding:.7rem 1.4rem;">Agendar cita →</a>
+    </div>
+  </div>
+  <div class="ft-bot">
+    <p class="ft-copy">© 2026 Joyceleine Scarleth. Todos los derechos reservados.</p>
+    <div class="ft-leg">
+      <a href="#">Privacidad</a>
+      <a href="#">Términos</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    if (scrollY > 60) nav.classList.add('s');
+    else nav.classList.add('s'); // always solid on inner pages
+  });
+  document.getElementById('ham').onclick = () => document.getElementById('mob').classList.add('open');
+  document.getElementById('mobX').onclick = () => document.getElementById('mob').classList.remove('open');
+  function cm() { document.getElementById('mob').classList.remove('open'); }
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); io.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.up').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

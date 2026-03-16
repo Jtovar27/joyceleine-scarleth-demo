@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galería — Joyceleine Scarleth</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+
+<!-- MOBILE MENU -->
+<div class="mob" id="mob">
+  <button class="mob-x" id="mobX">✕</button>
+  <a href="sobre-mi.html" onclick="cm()">Sobre Mí</a>
+  <a href="servicios.html" onclick="cm()">Servicios</a>
+  <a href="galeria.html" onclick="cm()">Galería</a>
+  <a href="blog.html" onclick="cm()">Blog</a>
+  <a href="contacto.html" onclick="cm()" class="btn btn-fill" style="font-size:.75rem;margin-top:1rem;">Agendar cita</a>
+</div>
+
+<!-- NAV -->
+<nav id="nav" class="s">
+  <a href="index.html" class="logo">Joyceleine Scarleth</a>
+  <ul class="nav-links">
+    <li><a href="sobre-mi.html">Sobre Mí</a></li>
+    <li><a href="servicios.html">Servicios</a></li>
+    <li><a href="galeria.html" class="active">Galería</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contacto.html" class="nav-cta-btn btn">Agendar cita</a></li>
+  </ul>
+  <div class="hamburger" id="ham"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <span class="tag">Galería</span>
+  <h1>Momentos que <em>inspiran.</em></h1>
+  <div class="line"></div>
+  <p>Una mirada a los eventos, talleres y retiros que han transformado vidas en nuestra comunidad.</p>
+</div>
+
+<!-- GALLERY FULL -->
+<section id="galeria" class="full-gallery">
+  <div class="g-head up">
+    <span class="tag">Talleres & Eventos</span>
+    <h2 class="h2">Dentro de cada <em>encuentro.</em></h2>
+    <div class="line c"></div>
+  </div>
+
+  <!-- Featured grid -->
+  <div class="g-grid up" style="max-width:1160px;margin:0 auto 6px;">
+    <div class="g-item g-item-1">
+      <img src="src/images/IMG_3867.JPG.jpeg" alt="Joyceleine Scarleth" style="width:100%;height:100%;object-fit:cover;object-position:center top;display:block;" />
+      <div class="g-ov"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+    </div>
+    <div class="g-item">
+      <div class="ph" style="height:100%;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        TALLER<br>400 × 300px
+      </div>
+      <div class="g-ov"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+    </div>
+    <div class="g-item">
+      <div class="ph" style="height:100%;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        LIBRO<br>400 × 300px
+      </div>
+      <div class="g-ov"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+    </div>
+    <div class="g-item">
+      <div class="ph" style="height:100%;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        COMUNIDAD<br>400 × 200px
+      </div>
+      <div class="g-ov"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+    </div>
+    <div class="g-item">
+      <div class="ph" style="height:100%;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        BACKSTAGE<br>400 × 200px
+      </div>
+      <div class="g-ov"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+    </div>
+  </div>
+
+  <!-- Additional grid -->
+  <div class="g-grid-full up" style="transition-delay:.1s">
+    <div class="g-item">
+      <div class="ph" style="height:100%;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        RETIRO<br>400 × 280px
+      </div>
+      <div class="g-ov"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+    </div>
+    <div class="g-item">
+      <div class="ph" style="height:100%;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        CONFERENCIA<br>400 × 280px
+      </div>
+      <div class="g-ov"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+    </div>
+    <div class="g-item">
+      <div class="ph" style="height:100%;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        MASTERCLASS<br>400 × 280px
+      </div>
+      <div class="g-ov"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+    </div>
+    <div class="g-item">
+      <div class="ph" style="height:100%;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        COMUNIDAD<br>400 × 280px
+      </div>
+      <div class="g-ov"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+    </div>
+    <div class="g-item">
+      <div class="ph" style="height:100%;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        LIDERAZGO<br>400 × 280px
+      </div>
+      <div class="g-ov"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+    </div>
+    <div class="g-item">
+      <div class="ph" style="height:100%;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        ORATORIA<br>400 × 280px
+      </div>
+      <div class="g-ov"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <h2 class="cta-h up">¿Quieres ser parte de la <em>experiencia?</em></h2>
+  <p class="cta-sub up" style="transition-delay:.1s">Únete a nuestros próximos talleres y retiros en Orlando.</p>
+  <div class="cta-btns up" style="transition-delay:.2s">
+    <a href="servicios.html" class="btn btn-fill">Ver próximos eventos</a>
+    <a href="contacto.html" class="btn btn-outline">Contactarme</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft-grid">
+    <div>
+      <p class="ft-name">Joyceleine Scarleth</p>
+      <p class="ft-desc">Coach de bienestar, comunicadora y autora. Orlando, FL.</p>
+      <div class="socials">
+        <a href="https://www.instagram.com/joyceleinescarleth" target="_blank" class="soc" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="https://www.facebook.com/share/1AGDUjxgYz/?mibextid=wwXIfr" target="_blank" class="soc" aria-label="Facebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="https://www.tiktok.com/@joyceleine" target="_blank" class="soc" aria-label="TikTok"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <p class="ft-h">Navegación</p>
+      <ul class="ft-links">
+        <li><a href="sobre-mi.html">Sobre Mí</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="ft-h">Contacto</p>
+      <ul class="ft-links">
+        <li><a href="contacto.html">Agendar cita</a></li>
+        <li><a href="mailto:hola@joyceleinescarleth.com">hola@joyceleinescarleth.com</a></li>
+        <li><a href="#">Orlando, Florida · USA</a></li>
+      </ul>
+      <a href="contacto.html" class="btn btn-fill" style="margin-top:1.3rem;font-size:.7rem;padding:.7rem 1.4rem;">Agendar cita →</a>
+    </div>
+  </div>
+  <div class="ft-bot">
+    <p class="ft-copy">© 2026 Joyceleine Scarleth. Todos los derechos reservados.</p>
+    <div class="ft-leg">
+      <a href="#">Privacidad</a>
+      <a href="#">Términos</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => nav.classList.add('s'));
+  document.getElementById('ham').onclick = () => document.getElementById('mob').classList.add('open');
+  document.getElementById('mobX').onclick = () => document.getElementById('mob').classList.remove('open');
+  function cm() { document.getElementById('mob').classList.remove('open'); }
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); io.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.up').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

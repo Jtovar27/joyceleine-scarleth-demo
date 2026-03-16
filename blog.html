@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Joyceleine Scarleth</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+
+<!-- MOBILE MENU -->
+<div class="mob" id="mob">
+  <button class="mob-x" id="mobX">✕</button>
+  <a href="sobre-mi.html" onclick="cm()">Sobre Mí</a>
+  <a href="servicios.html" onclick="cm()">Servicios</a>
+  <a href="galeria.html" onclick="cm()">Galería</a>
+  <a href="blog.html" onclick="cm()">Blog</a>
+  <a href="contacto.html" onclick="cm()" class="btn btn-fill" style="font-size:.75rem;margin-top:1rem;">Agendar cita</a>
+</div>
+
+<!-- NAV -->
+<nav id="nav" class="s">
+  <a href="index.html" class="logo">Joyceleine Scarleth</a>
+  <ul class="nav-links">
+    <li><a href="sobre-mi.html">Sobre Mí</a></li>
+    <li><a href="servicios.html">Servicios</a></li>
+    <li><a href="galeria.html">Galería</a></li>
+    <li><a href="blog.html" class="active">Blog</a></li>
+    <li><a href="contacto.html" class="nav-cta-btn btn">Agendar cita</a></li>
+  </ul>
+  <div class="hamburger" id="ham"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <span class="tag">Blog & Reflexiones</span>
+  <h1>Reflexiones para tu <em>bienestar.</em></h1>
+  <div class="line"></div>
+  <p>Contenido que nutre tu mente, inspira tu corazón y te acompaña en el camino hacia tu mejor versión.</p>
+</div>
+
+<!-- BLOG -->
+<section id="blog">
+  <div class="b-head up">
+    <span class="tag">Videos recientes</span>
+    <h2 class="h2">Aprende con cada <em>historia.</em></h2>
+    <div class="line c"></div>
+  </div>
+  <div class="b-carousel-wrap up">
+    <button class="t-arrow b-prev" aria-label="Anterior">&#8592;</button>
+    <div class="b-carousel">
+      <div class="b-track">
+        <div class="b-card">
+          <div class="b-video-wrap">
+            <video controls muted playsinline preload="metadata">
+              <source src="src/videos/joycevideo1.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="b-body">
+            <span class="b-cat">Bienestar</span>
+            <h3 class="b-title">5 hábitos matutinos que cambiaron mi vida</h3>
+            <p class="b-meta">8 Mar 2026 · 5 min</p>
+          </div>
+        </div>
+        <div class="b-card">
+          <div class="b-video-wrap">
+            <video controls muted playsinline preload="metadata">
+              <source src="src/videos/joycevideo2.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="b-body">
+            <span class="b-cat">Comunicación</span>
+            <h3 class="b-title">Cómo hablar en público sin miedo</h3>
+            <p class="b-meta">5 Mar 2026 · 4 min</p>
+          </div>
+        </div>
+        <div class="b-card">
+          <div class="b-video-wrap">
+            <video controls muted playsinline preload="metadata">
+              <source src="src/videos/joycevideo3.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="b-body">
+            <span class="b-cat">Liderazgo</span>
+            <h3 class="b-title">La base de todo liderazgo auténtico</h3>
+            <p class="b-meta">1 Mar 2026 · 6 min</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="t-arrow b-next" aria-label="Siguiente">&#8594;</button>
+  </div>
+  <div class="b-dots">
+    <button class="b-dot active"></button>
+    <button class="b-dot"></button>
+    <button class="b-dot"></button>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section id="testimonios">
+  <div class="t-head up">
+    <span class="tag">Testimonios</span>
+    <h2 class="h2">Lo que dicen mis <em>clientes.</em></h2>
+    <div class="line c"></div>
+  </div>
+  <div class="t-carousel-wrap up">
+    <button class="t-arrow t-prev" aria-label="Anterior">&#8592;</button>
+    <div class="t-carousel">
+      <div class="t-track">
+        <div class="t-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-quote">"Joyceleine cambió mi manera de comunicarme. Hoy hablo en público con una seguridad que nunca creí posible."</p>
+          <div class="t-auth">
+            <div class="t-av ph"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="opacity:.4"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+            <div><p class="t-name">María González</p><p class="t-role">Emprendedora · Orlando, FL</p></div>
+          </div>
+        </div>
+        <div class="t-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-quote">"El coaching fue un antes y un después. Me ayudó a encontrar claridad, propósito y herramientas reales para crecer."</p>
+          <div class="t-auth">
+            <div class="t-av ph"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="opacity:.4"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+            <div><p class="t-name">Andrea Morales</p><p class="t-role">Ejecutiva · Miami, FL</p></div>
+          </div>
+        </div>
+        <div class="t-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-quote">"El retiro de liderazgo fue transformador. La energía de Joyceleine es magnética y su conocimiento profundo."</p>
+          <div class="t-auth">
+            <div class="t-av ph"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="opacity:.4"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+            <div><p class="t-name">Carmen Reyes</p><p class="t-role">Coach · Tampa, FL</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="t-arrow t-next" aria-label="Siguiente">&#8594;</button>
+  </div>
+  <div class="t-dots">
+    <button class="t-dot active"></button>
+    <button class="t-dot"></button>
+    <button class="t-dot"></button>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <h2 class="cta-h up">¿Lista para tu <em>transformación?</em></h2>
+  <p class="cta-sub up" style="transition-delay:.1s">Agenda tu primera sesión hoy y comienza tu camino.</p>
+  <div class="cta-btns up" style="transition-delay:.2s">
+    <a href="contacto.html" class="btn btn-fill">Agendar cita ahora</a>
+    <a href="servicios.html" class="btn btn-outline">Ver servicios</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft-grid">
+    <div>
+      <p class="ft-name">Joyceleine Scarleth</p>
+      <p class="ft-desc">Coach de bienestar, comunicadora y autora. Orlando, FL.</p>
+      <div class="socials">
+        <a href="https://www.instagram.com/joyceleinescarleth" target="_blank" class="soc" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="https://www.facebook.com/share/1AGDUjxgYz/?mibextid=wwXIfr" target="_blank" class="soc" aria-label="Facebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="https://www.tiktok.com/@joyceleine" target="_blank" class="soc" aria-label="TikTok"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <p class="ft-h">Navegación</p>
+      <ul class="ft-links">
+        <li><a href="sobre-mi.html">Sobre Mí</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="ft-h">Contacto</p>
+      <ul class="ft-links">
+        <li><a href="contacto.html">Agendar cita</a></li>
+        <li><a href="mailto:hola@joyceleinescarleth.com">hola@joyceleinescarleth.com</a></li>
+        <li><a href="#">Orlando, Florida · USA</a></li>
+      </ul>
+      <a href="contacto.html" class="btn btn-fill" style="margin-top:1.3rem;font-size:.7rem;padding:.7rem 1.4rem;">Agendar cita →</a>
+    </div>
+  </div>
+  <div class="ft-bot">
+    <p class="ft-copy">© 2026 Joyceleine Scarleth. Todos los derechos reservados.</p>
+    <div class="ft-leg">
+      <a href="#">Privacidad</a>
+      <a href="#">Términos</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Nav
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => nav.classList.add('s'));
+  document.getElementById('ham').onclick = () => document.getElementById('mob').classList.add('open');
+  document.getElementById('mobX').onclick = () => document.getElementById('mob').classList.remove('open');
+  function cm() { document.getElementById('mob').classList.remove('open'); }
+
+  // Scroll animations
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); io.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.up').forEach(el => io.observe(el));
+
+  // ── Blog carousel with video autoplay ──
+  (function () {
+    const section = document.getElementById('blog');
+    const track   = section.querySelector('.b-track');
+    const cards   = Array.from(track.querySelectorAll('.b-card'));
+    const dots    = Array.from(section.querySelectorAll('.b-dot'));
+    const prev    = section.querySelector('.b-prev');
+    const next    = section.querySelector('.b-next');
+    let current = 0;
+    let sectionVisible = false;
+
+    function video(idx) { return cards[idx].querySelector('video'); }
+
+    function playActive() {
+      const v = video(current);
+      if (v && sectionVisible) v.play().catch(() => {});
+    }
+
+    function pauseAll() {
+      cards.forEach(c => { const v = c.querySelector('video'); if (v) v.pause(); });
+    }
+
+    function go(idx) {
+      pauseAll();
+      current = (idx + cards.length) % cards.length;
+      track.style.transform = `translateX(-${current * 100}%)`;
+      dots.forEach((d, i) => d.classList.toggle('active', i === current));
+      playActive();
+    }
+
+    // When a video ends → next slide
+    cards.forEach((card, i) => {
+      const v = card.querySelector('video');
+      if (v) v.addEventListener('ended', () => go(i + 1));
+    });
+
+    // Arrow & dot controls
+    prev.addEventListener('click', () => go(current - 1));
+    next.addEventListener('click', () => go(current + 1));
+    dots.forEach((d, i) => d.addEventListener('click', () => go(i)));
+
+    // Touch swipe
+    let startX = 0;
+    track.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+    track.addEventListener('touchend', e => {
+      const diff = startX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 40) go(current + (diff > 0 ? 1 : -1));
+    });
+
+    // Play/pause based on section visibility
+    new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        sectionVisible = e.isIntersecting;
+        if (sectionVisible) playActive(); else pauseAll();
+      });
+    }, { threshold: 0.3 }).observe(section);
+  })();
+
+  // ── Testimonials carousel ──
+  (function () {
+    const section = document.getElementById('testimonios');
+    const track = section.querySelector('.t-track');
+    const cards = track.querySelectorAll('.t-card');
+    const dots  = section.querySelectorAll('.t-dot');
+    const prev  = section.querySelector('.t-prev');
+    const next  = section.querySelector('.t-next');
+    let current = 0, timer;
+
+    function go(idx) {
+      current = (idx + cards.length) % cards.length;
+      track.style.transform = `translateX(-${current * 100}%)`;
+      dots.forEach((d, i) => d.classList.toggle('active', i === current));
+    }
+
+    prev.addEventListener('click', () => { go(current - 1); resetTimer(); });
+    next.addEventListener('click', () => { go(current + 1); resetTimer(); });
+    dots.forEach((d, i) => d.addEventListener('click', () => { go(i); resetTimer(); }));
+
+    let startX = 0;
+    track.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+    track.addEventListener('touchend', e => {
+      const diff = startX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 40) { go(current + (diff > 0 ? 1 : -1)); resetTimer(); }
+    });
+
+    function resetTimer() { clearInterval(timer); timer = setInterval(() => go(current + 1), 5000); }
+    section.addEventListener('mouseenter', () => clearInterval(timer));
+    section.addEventListener('mouseleave', resetTimer);
+    resetTimer();
+  })();
+</script>
+</body>
+</html>

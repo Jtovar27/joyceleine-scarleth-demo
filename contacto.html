@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto — Joyceleine Scarleth</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+
+<!-- MOBILE MENU -->
+<div class="mob" id="mob">
+  <button class="mob-x" id="mobX">✕</button>
+  <a href="sobre-mi.html" onclick="cm()">Sobre Mí</a>
+  <a href="servicios.html" onclick="cm()">Servicios</a>
+  <a href="galeria.html" onclick="cm()">Galería</a>
+  <a href="blog.html" onclick="cm()">Blog</a>
+  <a href="contacto.html" onclick="cm()" class="btn btn-fill" style="font-size:.75rem;margin-top:1rem;">Agendar cita</a>
+</div>
+
+<!-- NAV -->
+<nav id="nav" class="s">
+  <a href="index.html" class="logo">Joyceleine Scarleth</a>
+  <ul class="nav-links">
+    <li><a href="sobre-mi.html">Sobre Mí</a></li>
+    <li><a href="servicios.html">Servicios</a></li>
+    <li><a href="galeria.html">Galería</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contacto.html" class="nav-cta-btn btn active">Agendar cita</a></li>
+  </ul>
+  <div class="hamburger" id="ham"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <span class="tag">Contacto</span>
+  <h1>Hablemos.<br>Estoy <em>aquí</em> para ti.</h1>
+  <div class="line"></div>
+  <p>Escríbeme o reserva tu cita. Estoy aquí para ayudarte a dar el primer paso hacia tu transformación.</p>
+</div>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="c-inner">
+    <div class="c-info up">
+      <span class="tag">Información de contacto</span>
+      <h2 class="h2">Conectemos y <em>crezcamos</em> juntas.</h2>
+      <div class="line"></div>
+      <p>Escríbeme o reserva tu cita a través de Calendly en el horario que más te convenga. Respondo en menos de 24 horas.</p>
+      <div class="c-details">
+        <div class="c-item">
+          <div class="c-ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <span>Orlando, Florida · USA</span>
+        </div>
+        <div class="c-item">
+          <div class="c-ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <span>hola@joyceleinescarleth.com</span>
+        </div>
+      </div>
+      <div class="socials">
+        <a href="https://www.instagram.com/joyceleinescarleth" target="_blank" class="soc" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="https://www.facebook.com/share/1AGDUjxgYz/?mibextid=wwXIfr" target="_blank" class="soc" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="https://www.tiktok.com/@joyceleine" target="_blank" class="soc" aria-label="TikTok"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg></a>
+      </div>
+    </div>
+    <div class="c-form up" style="transition-delay:.15s">
+      <h3>Agenda tu sesión</h3>
+      <form onsubmit="return false;">
+        <div class="f-grid">
+          <div class="f-field">
+            <label class="f-label">Nombre</label>
+            <input type="text" class="f-input" placeholder="Tu nombre" />
+          </div>
+          <div class="f-field">
+            <label class="f-label">Apellido</label>
+            <input type="text" class="f-input" placeholder="Tu apellido" />
+          </div>
+          <div class="f-field">
+            <label class="f-label">Correo</label>
+            <input type="email" class="f-input" placeholder="tu@correo.com" />
+          </div>
+          <div class="f-field">
+            <label class="f-label">Teléfono</label>
+            <input type="tel" class="f-input" placeholder="+1 (407) 000-0000" />
+          </div>
+          <div class="f-field full">
+            <label class="f-label">Servicio de interés</label>
+            <select class="f-sel">
+              <option value="" disabled selected>Selecciona un servicio</option>
+              <option>Coaching Personal (1:1)</option>
+              <option>Comunicación & Oratoria</option>
+              <option>Retiro de Liderazgo</option>
+              <option>Libros & Recursos</option>
+            </select>
+          </div>
+          <div class="f-field full">
+            <label class="f-label">Mensaje</label>
+            <textarea class="f-ta" placeholder="¿Cómo puedo ayudarte?"></textarea>
+          </div>
+        </div>
+        <button class="btn btn-fill f-sub">Enviar mensaje</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft-grid">
+    <div>
+      <p class="ft-name">Joyceleine Scarleth</p>
+      <p class="ft-desc">Coach de bienestar, comunicadora y autora. Orlando, FL.</p>
+      <div class="socials">
+        <a href="https://www.instagram.com/joyceleinescarleth" target="_blank" class="soc" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="https://www.facebook.com/share/1AGDUjxgYz/?mibextid=wwXIfr" target="_blank" class="soc" aria-label="Facebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="https://www.tiktok.com/@joyceleine" target="_blank" class="soc" aria-label="TikTok"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <p class="ft-h">Navegación</p>
+      <ul class="ft-links">
+        <li><a href="sobre-mi.html">Sobre Mí</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="ft-h">Contacto</p>
+      <ul class="ft-links">
+        <li><a href="contacto.html">Agendar cita</a></li>
+        <li><a href="mailto:hola@joyceleinescarleth.com">hola@joyceleinescarleth.com</a></li>
+        <li><a href="#">Orlando, Florida · USA</a></li>
+      </ul>
+      <a href="contacto.html" class="btn btn-fill" style="margin-top:1.3rem;font-size:.7rem;padding:.7rem 1.4rem;">Agendar cita →</a>
+    </div>
+  </div>
+  <div class="ft-bot">
+    <p class="ft-copy">© 2026 Joyceleine Scarleth. Todos los derechos reservados.</p>
+    <div class="ft-leg">
+      <a href="#">Privacidad</a>
+      <a href="#">Términos</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => nav.classList.add('s'));
+  document.getElementById('ham').onclick = () => document.getElementById('mob').classList.add('open');
+  document.getElementById('mobX').onclick = () => document.getElementById('mob').classList.remove('open');
+  function cm() { document.getElementById('mob').classList.remove('open'); }
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); io.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.up').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
